@@ -5,6 +5,7 @@ import LogoSubtitle from '../../assets/images/logo_sub.png';
 
 const Sidebar = () => {
 <div className='nav-bar'>
+    <>Hello from sidebar!!!!!</>
     <Link className='logo' to='/'>
         <img src={LogoS} alt='logo'/>
         <img src={LogoSubtitle} alt='logoword'/> 
