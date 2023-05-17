@@ -26,6 +26,7 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}>
             <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
         </NavLink>
+        
         <NavLink 
           activeclassname="active"
           className="about-link"
@@ -33,6 +34,7 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}>
             <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
         </NavLink>
+
         <NavLink
           activeclassname="active"
           className="portfolio-link"
@@ -40,13 +42,13 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
         </NavLink>
+
         <NavLink
           activeclassname="active"
           className="contact-link"
           to="/contact"
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
-        
         </NavLink>
       </nav>
       <ul>
@@ -68,21 +70,9 @@ const Sidebar = () => {
              
           </a>
         </li>
-        <li>
-          <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
-            target="_blank"
-          >
-          </a>
-        </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-          </a>
-        </li>
       </ul>
     </div>
   )
 }
 
-export default Sidebar
+export default Sidebar;
