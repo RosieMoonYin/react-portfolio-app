@@ -1,10 +1,10 @@
-import './index.scss'
-import { useState } from 'react'
-import LogoBlossom from '../../assets/images/pxl-blossom.png'
-import { Link, NavLink } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHome, faUser, faEnvelope} from '@fortawesome/free-solid-svg-icons'
-
+import './index.scss';
+import { useState } from 'react';
+import LogoBlossom from '../../assets/images/pxl-blossom.png';
+import { Link, NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faHome, faUser, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -58,7 +58,7 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
           >
-          
+          <FontAwesomeIcon icon={faLinkedin} color=""/>
           </a>
         </li>
         <li>
@@ -67,7 +67,7 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
           >
-             
+          <FontAwesomeIcon icon={faGithub} color=""/>
           </a>
         </li>
       </ul>
