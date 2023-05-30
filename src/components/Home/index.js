@@ -20,8 +20,8 @@ const Home = ()=> {
         <div className="text-zone">
           <h1>Hi,<br/>I'm <AnimatedLetters letterClass={letterClass}
           strArray={nameArray} idx={15}/> 
-          <br/>Creative web developer</h1>
-          <h2>Front End Developer / Javascript / REACT </h2>
+          <br/>creative web developer</h1>
+          <h2>Front End Developer / JavaScript / React </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

@@ -46,7 +46,7 @@
     }
 
     h2 {
-        color:#8d8d8d;
+        color:rgb(54, 46, 46);
         margin-top: 20px;
         font-weight: 400;
         font-size: 11px;
@@ -64,6 +64,8 @@
         text-decoration: none;
         padding: 10px 18px;
         border: #ff4322;
+        border-width: 1px;
+        border-style: solid;
         margin-top: 25px;
         float: left; 
         animation: fadeInAnimation 1s 1.8s backwards;
