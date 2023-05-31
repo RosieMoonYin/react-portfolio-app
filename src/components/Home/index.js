@@ -28,12 +28,15 @@ const Home = ()=> {
         <div className="text-zone">
 
           <h1>
-          <span className={letterClass}>H</span>
-          <span className={`${letterClass}_12`}>i</span>
-          <br></br>
-          <span className={`${letterClass}_13`}>I</span>
-          <span className={`${letterClass}_14`}>'m</span>
-          <br></br>
+
+
+<span className={`${letterClass} letter`}>H</span>
+<span className={`${letterClass} letter`}>i</span>
+<br />
+<span className={`${letterClass} letter`}>I</span>
+<span className={`${letterClass} letter`}>'m</span>
+<br />
+
           <AnimatedLetters letterClass={letterClass}
           strArray={nameArray} idx={15}/> 
           <br/>

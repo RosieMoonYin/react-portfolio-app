@@ -34,6 +34,10 @@
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
+        .letter {
+          transition-delay: 0.1s; /* Adjust the delay as needed */
+        }
+      
         img{
             width: 32px;
             margin-left: 20px;
