@@ -12,11 +12,13 @@ const Home = ()=> {
     'w','e','b',' ','d','e','v','e','l','o','p','e','r','.',
   ]
   
-  useEffect (() => {
-    return ((setTimeout) => {
-      setLetterClass('text-animate-hover')
-    }, 4000)
-  }, [])
+  useEffect(() => {
+    setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 4000);
+  }, []);
+
+
 
   return (
     <>
