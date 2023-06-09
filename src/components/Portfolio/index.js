@@ -1,15 +1,15 @@
 import Sidebar from '../Sidebar';
 import './index.scss'
 
-const Contact = () => {
+const Portfolio = () => {
     return (
         <>
             <Sidebar/>
             <div>
-                CONTACT FORM HERE
+                PORTFOLIO IMAGES HERE
             </div>
         </>
     ) 
 };
 
-export default Contact;
+export default Portfolio;
