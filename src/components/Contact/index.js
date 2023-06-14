@@ -18,7 +18,7 @@ const Contact = () => {
     const form = useRef();
   
     const sendEmail = (data) => {
-      emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, "YOUR_USER_ID")
+      emailjs.sendForm("service_dhzov9a", "template_lx783t8", form.current, "BH1p0pr5RpsHiWLBq")
         .then(
           (result) => {
             console.log(result.text);
