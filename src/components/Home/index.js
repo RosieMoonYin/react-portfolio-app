@@ -46,12 +46,14 @@ const Home = ()=> {
           strArray={jobArray} idx={20}/></h1>
 
           <h2>Front End Creative / JavaScript / React / JSX / HTML / CSS</h2>
-          <Imagehover />
-
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+
         </div>
+        <div className="image-container">
+            <Imagehover />
+          </div>
 
       </div>
     </>
