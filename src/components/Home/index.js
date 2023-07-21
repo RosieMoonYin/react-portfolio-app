@@ -2,6 +2,7 @@ import './index.scss';
 import {Link} from 'react-router-dom';
 import {useEffect, useState} from "react";
 import Sidebar from '../Sidebar/';
+import Imagehover from '../Imagehover';
 import AnimatedLetters from '../AnimatedLetters';
 
 const Home = ()=> {
@@ -44,7 +45,9 @@ const Home = ()=> {
           <AnimatedLetters letterClass={letterClass}
           strArray={jobArray} idx={20}/></h1>
 
-          <h2>Front End Developer / JavaScript / React </h2>
+          <h2>Front End Creative / JavaScript / React / JSX / HTML / CSS</h2>
+          <Imagehover />
+
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

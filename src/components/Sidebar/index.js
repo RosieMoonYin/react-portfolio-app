@@ -24,7 +24,7 @@ const Sidebar = () => {
           activeclassname="active"
           to="/"
           onClick={() => setShowNav(false)}>
-            <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
+            <FontAwesomeIcon icon={faHome} color="#FF8BFF"/>
         </NavLink>
         
         <NavLink 
@@ -32,7 +32,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
           onClick={() => setShowNav(false)}>
-            <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
+            <FontAwesomeIcon icon={faUser} color="#FF8BFF"/>
         </NavLink>
 
         <NavLink
@@ -40,7 +40,7 @@ const Sidebar = () => {
           className="portfolio-link"
           to="/portfolio"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
+          <FontAwesomeIcon icon={faEnvelope} color="#FF8BFF"/>
         </NavLink>
 
         <NavLink
@@ -48,7 +48,7 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
+          <FontAwesomeIcon icon={faEnvelope} color="#FF8BFF"/>
         </NavLink>
       </nav>
       <ul>

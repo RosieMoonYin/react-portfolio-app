@@ -1,5 +1,5 @@
 .nav-bar {
-    background: #181818;
+    background:#2D5A27;
     width: 60px;
     height: 100%;
     position: absolute;
@@ -22,6 +22,10 @@
         }
       }
     }
+
+    .contact-link  .about-link .hamburger-icon .portfolio-link {
+      color: #FF8BFF;
+    }
   
     nav {
       display: block;
@@ -34,7 +38,7 @@
   
       a {
         font-size: 22px;
-        color: #4d4d4e;
+        color:#ffffff;
         display: block;
         line-height: 51px;
         height: 51px;
@@ -119,7 +123,7 @@
           display: block;
           font-size: 15px;
           line-height: 16px;
-          color: #4d4d4e;
+          color: #FF8BFF;
         }
   
         &:hover {
