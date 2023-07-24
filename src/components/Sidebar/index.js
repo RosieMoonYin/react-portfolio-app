@@ -5,6 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHome, faUser, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFolder, faFolderOpen } from '@fortawesome/free-regular-svg-icons';
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -40,7 +41,7 @@ const Sidebar = () => {
           className="portfolio-link"
           to="/portfolio"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faEnvelope} color="#FF8BFF"/>
+          <FontAwesomeIcon icon={faFolderOpen} color="#FF8BFF"/>
         </NavLink>
 
         <NavLink

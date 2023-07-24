@@ -15,7 +15,7 @@
         color:#FF8BFF;
         font-size: 53px;
         margin: 0;
-        font-family: "Coolvetica";
+        font-family: "IBMPlexSerif";
         font-weight: 400;
         &::before {
             content:"<h1>";
@@ -88,9 +88,9 @@
           /* Add the new styles for the image container */
           .image-container {
   /* Adjust the width as needed */
-  width: 50%;
+  width: 250px;
   /* Make the image container fill the full height of the viewport */
-  height: 100vh;
+  height: 500px;
   /* Ensure the image doesn't overflow beyond the container */
   overflow: hidden;
   /* Use flex layout to place children in a column */
