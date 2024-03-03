@@ -2,7 +2,6 @@ import './index.scss';
 import {Link} from 'react-router-dom';
 import {useEffect, useState} from "react";
 import Sidebar from '../Sidebar/';
-import Imagehover from '../Imagehover';
 import AnimatedLetters from '../AnimatedLetters';
 
 const Home = ()=> {
@@ -52,7 +51,7 @@ const Home = ()=> {
 
         </div>
         <div className="image-container">
-            <Imagehover />
+            
           </div>
 
       </div>
