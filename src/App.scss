@@ -11,6 +11,13 @@ $primary-color: #ff4322;
 }
 
 @font-face {
+  font-family: 'IBMPlexSerif';
+  src: url('./assets/fonts/IBMPlexSerif-Regular.ttf') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'La Belle Aurore';
   src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
     url('./assets/fonts/LaBelleAurore.woff') format('woff');
@@ -48,3 +55,5 @@ textarea {
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
+
+

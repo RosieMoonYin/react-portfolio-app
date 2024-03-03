@@ -2,7 +2,6 @@ import './index.scss';
 import {Link} from 'react-router-dom';
 import {useEffect, useState} from "react";
 import Sidebar from '../Sidebar/';
-import Imagehover from '../Imagehover';
 import AnimatedLetters from '../AnimatedLetters';
 
 const Home = ()=> {
@@ -46,12 +45,14 @@ const Home = ()=> {
           strArray={jobArray} idx={20}/></h1>
 
           <h2>Front End Creative / JavaScript / React / JSX / HTML / CSS</h2>
-          <Imagehover />
-
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+
         </div>
+        <div className="image-container">
+            
+          </div>
 
       </div>
     </>
